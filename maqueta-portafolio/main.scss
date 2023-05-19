@@ -45,6 +45,40 @@ body {
 }
 
 
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  .principal{
+    flex-grow: 1;
+  }
+  .options{
+    width: 300px;
+    height: 60px;
+    border: 3px solid purple;
+  }
+}
+
+.principal{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid blue;
+
+  .contenedorIcons{
+    width: 200px;
+    height: 30px;
+    border: 3px solid cornflowerblue;
+  }
+  .presentation{
+    flex-grow: 0.6;
+    border: 3px solid coral;
+  }
+  .contenedorImg{
+    flex-grow: 1;
+    border: 3px solid yellow;
+  }
+}
+
 
 /*
   Degradado elegante: 

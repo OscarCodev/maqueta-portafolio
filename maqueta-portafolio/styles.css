@@ -36,6 +36,39 @@ body .contentSup .content {
   border: 1px solid white;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+.content .principal {
+  flex-grow: 1;
+}
+.content .options {
+  width: 300px;
+  height: 60px;
+  border: 3px solid purple;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid blue;
+}
+.principal .contenedorIcons {
+  width: 200px;
+  height: 30px;
+  border: 3px solid cornflowerblue;
+}
+.principal .presentation {
+  flex-grow: 0.6;
+  border: 3px solid coral;
+}
+.principal .contenedorImg {
+  flex-grow: 1;
+  border: 3px solid yellow;
+}
+
 /*
   Degradado elegante: 
   background: rgb(35,30,53);
